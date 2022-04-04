@@ -13,7 +13,7 @@
 
 
 
-<title>编程 | Weng&#39;s Blog</title>
+<title>搭建hexo 报错 FATAL YAMLException: duplicated mapping key  (117:1) | Weng&#39;s Blog</title>
 
 
 
@@ -343,10 +343,20 @@
                 <div class="container">
     <article class="post-wrap page">
         
-        <h2 class="post-title">编程</h2>
+        <h2 class="post-title">搭建hexo 报错 FATAL YAMLException: duplicated mapping key  (117:1)</h2>
         
         <section class="post-content">
-            
+            <h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>输入<code>hexo clean</code>时报错：<br>FATAL YAMLException: duplicated mapping key  (117:1)</p>
+<br>
+
+<h3 id="报错解读"><a href="#报错解读" class="headerlink" title="报错解读"></a>报错解读</h3><ul>
+<li>该报错主要是因为某一个文件中的代码重复<br>refer: <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_43423781/article/details/118892741">https://blog.csdn.net/weixin_43423781/article/details/118892741</a></li>
+<li>117表示在第几行出错。但具体是哪个文件报错，需要结合报错信息，回顾自己之前修改过哪个配置文件，逐个检查。找到重复代码，删除即可。</li>
+</ul>
+<br>
+
+<h3 id="解决过程"><a href="#解决过程" class="headerlink" title="解决过程"></a>解决过程</h3><p>例如，我在添加搜索栏之后（<a target="_blank" rel="noopener" href="https://myoontyee.github.io/article/1650c0d7.html">搜索栏参考教程</a>），出现这个报错。于是从该教程的第一步开始梳理，逐个检查修改过的文件，最终在下图处发现代码重复。删除<br>【图片待放】</p>
+
         </section>
     </article>
 </div>
