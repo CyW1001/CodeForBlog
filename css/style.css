@@ -1693,7 +1693,7 @@ header label {
 }
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1649055549989') format('truetype');
+  src: url('iconfont.ttf?t=1649067871790') format('truetype');
 }
 
 .iconfont {
@@ -1710,6 +1710,18 @@ header label {
 
 .icon-biaoqian_o:before {
   content: "\eb47";
+}
+
+.icon-wowowo:before {
+  content: "\e631";
+}
+
+.icon-Category:before {
+  content: "\e60e";
+}
+
+.icon-dajumao:before {
+  content: "\e626";
 }
 
 
