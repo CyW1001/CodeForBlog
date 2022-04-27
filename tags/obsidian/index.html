@@ -13,7 +13,7 @@
 
 
 
-<title>搭建hexo 报错 FATAL YAMLException: duplicated mapping key  (117:1) | Weng&#39;s Blog</title>
+<title>Tag: obsidian | Weng&#39;s Blog</title>
 
 
 
@@ -380,161 +380,29 @@
     }
 </script>
             <div class="main">
-                <div class="container">
+                
+
+    
+<div class="container">
+    <div class="post-wrap tags">
+        <h2 class="post-title">-&nbsp;Tag&nbsp;·&nbsp;obsidian-</h2>
+    </div>
+    <div class="post-wrap archive">
     
     
-        <div class="post-toc">
-    <div class="tocbot-list">
-    </div>
-    <div class="tocbot-list-menu">
-        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
-        <a onclick="go_top()">Back to top</a>
-        <a onclick="go_bottom()">Go to bottom</a>
-    </div>
+        
+
+        
+            <h3>2022</h3>
+        
+
+        <article class="archive-item">
+            <a class="archive-item-link" href="/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/">【obsidian教程】如何在obsidian里为字体设置不同的颜色？</a>
+            <span class="archive-item-date">April 27, 2022</span>
+        </article>
+    
+    
 </div>
-
-<script>
-    document.ready(
-        function () {
-            tocbot.init({
-                tocSelector: '.tocbot-list',
-                contentSelector: '.post-content',
-                headingSelector: 'h1, h2, h3, h4, h5',
-                collapseDepth: 1,
-                orderedList: false,
-                scrollSmooth: true,
-            })
-        }
-    )
-
-    function expand_toc() {
-        var b = document.querySelector(".tocbot-toc-expand");
-        tocbot.init({
-            tocSelector: '.tocbot-list',
-            contentSelector: '.post-content',
-            headingSelector: 'h1, h2, h3, h4, h5',
-            collapseDepth: 6,
-            orderedList: false,
-            scrollSmooth: true,
-        });
-        b.setAttribute("onclick", "collapse_toc()");
-        b.innerHTML = "Collapse all"
-    }
-
-    function collapse_toc() {
-        var b = document.querySelector(".tocbot-toc-expand");
-        tocbot.init({
-            tocSelector: '.tocbot-list',
-            contentSelector: '.post-content',
-            headingSelector: 'h1, h2, h3, h4, h5',
-            collapseDepth: 1,
-            orderedList: false,
-            scrollSmooth: true,
-        });
-        b.setAttribute("onclick", "expand_toc()");
-        b.innerHTML = "Expand all"
-    }
-
-    function go_top() {
-        window.scrollTo(0, 0);
-    }
-
-    function go_bottom() {
-        window.scrollTo(0, document.body.scrollHeight);
-    }
-
-</script>
-    
-
-    
-    <article class="post-wrap">
-        <header class="post-header">
-            <h1 class="post-title">搭建hexo 报错 FATAL YAMLException: duplicated mapping key  (117:1)</h1>
-            
-                <div class="post-meta">
-                    
-                        Author: <a itemprop="author" rel="author" href="/">CY Weng</a>
-                    
-
-                    
-                        <span class="post-time">
-                        Date: <a href="#">April 1, 2022&nbsp;&nbsp;20:24:54</a>
-                        </span>
-                    
-                    
-                </div>
-            
-        </header>
-
-        <div class="post-content">
-            <h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>输入<code>hexo clean</code>时报错：<br>FATAL YAMLException: duplicated mapping key  (117:1)</p>
-<br>
-
-<h3 id="报错解读"><a href="#报错解读" class="headerlink" title="报错解读"></a>报错解读</h3><ul>
-<li>该报错主要是因为某一个文件中的代码重复<br>refer: <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_43423781/article/details/118892741">https://blog.csdn.net/weixin_43423781/article/details/118892741</a></li>
-<li>117表示在第几行出错。但具体是哪个文件报错，需要结合报错信息，回顾自己之前修改过哪个配置文件，逐个检查。找到重复代码，删除即可。</li>
-</ul>
-<br>
-
-<h3 id="解决过程"><a href="#解决过程" class="headerlink" title="解决过程"></a>解决过程</h3><p>例如，我在添加搜索栏之后（<a target="_blank" rel="noopener" href="https://myoontyee.github.io/article/1650c0d7.html">搜索栏参考教程</a>），出现这个报错。于是从该教程的第一步开始梳理，逐个检查修改过的文件，最终在下图处发现代码重复。删除<br>【图片待放】</p>
-
-        </div>
-
-        
-            <section class="post-copyright">
-                
-                    <p class="copyright-item">
-                        <span>Author:</span>
-                        <span>CY Weng</span>
-                    </p>
-                
-                
-                    <p class="copyright-item">
-                        <span>Permalink:</span>
-                        <span><a href="https://cyw1001.github.io/2022/04/01/%E6%90%AD%E5%BB%BAhexo-%E6%8A%A5%E9%94%99-FATAL-YAMLException-duplicated-mapping-key-117-1/">https://cyw1001.github.io/2022/04/01/%E6%90%AD%E5%BB%BAhexo-%E6%8A%A5%E9%94%99-FATAL-YAMLException-duplicated-mapping-key-117-1/</a></span>
-                    </p>
-                
-                
-                    <p class="copyright-item">
-                        <span>License:</span>
-                        <span>Copyright (c) 2019 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
-                    </p>
-                
-                
-                     <p class="copyright-item">
-                         <span>Slogan:</span>
-                         <span>Do you believe in <strong>DESTINY</strong>?</span>
-                     </p>
-                
-
-            </section>
-        
-        <section class="post-tags">
-            <div>
-                <span>Tag(s):</span>
-                <span class="tag">
-                    
-                    
-                        <a href="/tags/hexo/"># hexo</a>
-                    
-                        
-                </span>
-            </div>
-            <div>
-                <a href="javascript:window.history.back();">back</a>
-                <span>· </span>
-                <a href="/">home</a>
-            </div>
-        </section>
-        <section class="post-nav">
-            
-                <a class="prev" rel="prev" href="/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/">【obsidian教程】如何在obsidian里为字体设置不同的颜色？</a>
-            
-            
-        </section>
-
-
-    </article>
 </div>
 
             </div>
