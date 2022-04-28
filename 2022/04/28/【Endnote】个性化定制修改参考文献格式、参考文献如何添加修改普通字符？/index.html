@@ -13,7 +13,7 @@
 
 
 
-<title>Archives: 2022 | Weng&#39;s Blog</title>
+<title>【Endnote】个性化定制修改参考文献格式、参考文献如何添加修改普通字符？ | Weng&#39;s Blog</title>
 
 
 
@@ -380,58 +380,174 @@
     }
 </script>
             <div class="main">
-                <div class="post-wrap archive">
+                <div class="container">
     
     
-        
-
-        
-            <h3>2022</h3>
-        
-
-        <article class="archive-item">
-            <a class="archive-item-link" href="/2022/04/28/%E3%80%90Endnote%E3%80%91%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AE%9A%E5%88%B6%E4%BF%AE%E6%94%B9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%A0%BC%E5%BC%8F%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%BF%AE%E6%94%B9%E6%99%AE%E9%80%9A%E5%AD%97%E7%AC%A6%EF%BC%9F/">【Endnote】个性化定制修改参考文献格式、参考文献如何添加修改普通字符？</a>
-            <span class="archive-item-date">April 28, 2022</span>
-        </article>
-    
-        
-
-        
-
-        <article class="archive-item">
-            <a class="archive-item-link" href="/2022/04/28/%E3%80%90ROST%E3%80%91ROSTCM%E7%94%9F%E6%88%90%E7%9A%84NetDraw%E7%A9%BA%E7%99%BD%E3%80%81%E8%A1%8C%E7%89%B9%E5%BE%81%E8%AF%8D%E6%98%AF0kb%E6%80%8E%E4%B9%88%E5%8A%9E/">【ROST】ROSTCM生成的NetDraw空白、行特征词是0kb怎么办</a>
-            <span class="archive-item-date">April 28, 2022</span>
-        </article>
-    
-        
-
-        
-
-        <article class="archive-item">
-            <a class="archive-item-link" href="/2022/04/28/%E3%80%90ROST%E3%80%91%E5%A6%82%E4%BD%95%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%E6%9C%AC%E5%9C%B0%E7%9A%84-vna%E6%96%87%E4%BB%B6/">【ROST】如何直接打开本地的.vna文件</a>
-            <span class="archive-item-date">April 28, 2022</span>
-        </article>
-    
-        
-
-        
-
-        <article class="archive-item">
-            <a class="archive-item-link" href="/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/">【obsidian教程】如何在obsidian里为字体设置不同的颜色？</a>
-            <span class="archive-item-date">April 27, 2022</span>
-        </article>
-    
-        
-
-        
-
-        <article class="archive-item">
-            <a class="archive-item-link" href="/2022/04/01/%E3%80%90hexo%E3%80%91%E6%90%AD%E5%BB%BAhexo-%E6%8A%A5%E9%94%99-FATAL-YAMLException-duplicated-mapping-key-117-1/">【hexo】搭建hexo 报错 FATAL YAMLException: duplicated mapping key  (117:1)</a>
-            <span class="archive-item-date">April 1, 2022</span>
-        </article>
-    
-    
+        <div class="post-toc">
+    <div class="tocbot-list">
+    </div>
+    <div class="tocbot-list-menu">
+        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+    </div>
 </div>
+
+<script>
+    document.ready(
+        function () {
+            tocbot.init({
+                tocSelector: '.tocbot-list',
+                contentSelector: '.post-content',
+                headingSelector: 'h1, h2, h3, h4, h5',
+                collapseDepth: 1,
+                orderedList: false,
+                scrollSmooth: true,
+            })
+        }
+    )
+
+    function expand_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 6,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "collapse_toc()");
+        b.innerHTML = "Collapse all"
+    }
+
+    function collapse_toc() {
+        var b = document.querySelector(".tocbot-toc-expand");
+        tocbot.init({
+            tocSelector: '.tocbot-list',
+            contentSelector: '.post-content',
+            headingSelector: 'h1, h2, h3, h4, h5',
+            collapseDepth: 1,
+            orderedList: false,
+            scrollSmooth: true,
+        });
+        b.setAttribute("onclick", "expand_toc()");
+        b.innerHTML = "Expand all"
+    }
+
+    function go_top() {
+        window.scrollTo(0, 0);
+    }
+
+    function go_bottom() {
+        window.scrollTo(0, document.body.scrollHeight);
+    }
+
+</script>
+    
+
+    
+    <article class="post-wrap">
+        <header class="post-header">
+            <h1 class="post-title">【Endnote】个性化定制修改参考文献格式、参考文献如何添加修改普通字符？</h1>
+            
+                <div class="post-meta">
+                    
+                        Author: <a itemprop="author" rel="author" href="/">CY Weng</a>
+                    
+
+                    
+                        <span class="post-time">
+                        Date: <a href="#">April 28, 2022&nbsp;&nbsp;13:36:52</a>
+                        </span>
+                    
+                    
+                </div>
+            
+        </header>
+
+        <div class="post-content">
+            <p>以APA 6th格式为例</p>
+<h1 id="style备份"><a href="#style备份" class="headerlink" title="style备份"></a>style备份</h1><p>注意！这一步骤是必须的。修改文献style之前，先把原style样式备份保留，所有个性化修改只针对拷贝版本。<br><br><br><strong>备份步骤：</strong></p>
+<p><code>edit</code> - <code>output styles</code> - 选中apa 6th 格式 - <code>edit apa 6th</code> </p>
+<p>此时点击 <code>File</code> - <code>save as</code> , 将要修改的格式另存为 <code>apa 6th copy</code>, 进行备份</p>
+<p>之后的操作都是针对<code>apa 6th copy</code>进行修改<br><br></p>
+<h1 id="style修改过程"><a href="#style修改过程" class="headerlink" title="style修改过程"></a>style修改过程</h1><p><code>edit</code> - <code>output styles</code> - <code>open style manager</code> , 勾选<code>apa 6th copy</code></p>
+<img src="/2022/04/28/%E3%80%90Endnote%E3%80%91%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AE%9A%E5%88%B6%E4%BF%AE%E6%94%B9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%A0%BC%E5%BC%8F%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%BF%AE%E6%94%B9%E6%99%AE%E9%80%9A%E5%AD%97%E7%AC%A6%EF%BC%9F/image-20220428133734595.png" class="" title="image-20220428133734595">
+<br>
+再打开`edit` - `output styles` - `open style manager`，就能看到`apa 6th copy`，勾选它，然后`edit` - `output styles` - `open style manager` - `edit apa 6th copy`
+<br>
+打开`Bibliography` - `Templates`, 对应修改每种类型参考文献的内容
+<img src="/2022/04/28/%E3%80%90Endnote%E3%80%91%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AE%9A%E5%88%B6%E4%BF%AE%E6%94%B9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%A0%BC%E5%BC%8F%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%BF%AE%E6%94%B9%E6%99%AE%E9%80%9A%E5%AD%97%E7%AC%A6%EF%BC%9F/image-20220428133836516.png" class="" title="image-20220428133836516">
+
+<p>接下来以Web Page类型的格式修改为例。 自己的实际修改要求见期刊的投稿指南。<br>原格式为</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Publisher. Title. `Retrieved from` Date Cited `from` URL</span><br></pre></td></tr></table></figure>
+<p>可改为</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Publisher. Title. `Retrieved` Date Cited `from` URL</span><br></pre></td></tr></table></figure>
+<p>注意：<br>“Retrieved”是要显示的字，前后需要加一个下图红圈的英文符号。这与Date Cited不同（后者显示为对应的内容，即引用时间，而不是显示为“Date Cited”这个词）</p>
+<img src="/2022/04/28/%E3%80%90Endnote%E3%80%91%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AE%9A%E5%88%B6%E4%BF%AE%E6%94%B9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%A0%BC%E5%BC%8F%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%BF%AE%E6%94%B9%E6%99%AE%E9%80%9A%E5%AD%97%E7%AC%A6%EF%BC%9F/image-20220428133758428.png" class="" title="image-20220428133758428">
+<br>
+点击 `Insert Filed` ，即可插入文献相关的其他信息，如DOI等。
+<img src="/2022/04/28/%E3%80%90Endnote%E3%80%91%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AE%9A%E5%88%B6%E4%BF%AE%E6%94%B9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%A0%BC%E5%BC%8F%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%BF%AE%E6%94%B9%E6%99%AE%E9%80%9A%E5%AD%97%E7%AC%A6%EF%BC%9F/image-20220428133854737.png" class="" title="image-20220428133854737">
+        </div>
+
+        
+            <section class="post-copyright">
+                
+                    <p class="copyright-item">
+                        <span>Author:</span>
+                        <span>CY Weng</span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>Permalink:</span>
+                        <span><a href="https://cyw1001.github.io/2022/04/28/%E3%80%90Endnote%E3%80%91%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AE%9A%E5%88%B6%E4%BF%AE%E6%94%B9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%A0%BC%E5%BC%8F%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%BF%AE%E6%94%B9%E6%99%AE%E9%80%9A%E5%AD%97%E7%AC%A6%EF%BC%9F/">https://cyw1001.github.io/2022/04/28/%E3%80%90Endnote%E3%80%91%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AE%9A%E5%88%B6%E4%BF%AE%E6%94%B9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%A0%BC%E5%BC%8F%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%BF%AE%E6%94%B9%E6%99%AE%E9%80%9A%E5%AD%97%E7%AC%A6%EF%BC%9F/</a></span>
+                    </p>
+                
+                
+                    <p class="copyright-item">
+                        <span>License:</span>
+                        <span>Copyright (c) 2019 <a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE</span>
+                    </p>
+                
+                
+                     <p class="copyright-item">
+                         <span>Slogan:</span>
+                         <span>Do you believe in <strong>DESTINY</strong>?</span>
+                     </p>
+                
+
+            </section>
+        
+        <section class="post-tags">
+            <div>
+                <span>Tag(s):</span>
+                <span class="tag">
+                    
+                    
+                        <a href="/tags/Endnote/"># Endnote</a>
+                    
+                        
+                </span>
+            </div>
+            <div>
+                <a href="javascript:window.history.back();">back</a>
+                <span>· </span>
+                <a href="/">home</a>
+            </div>
+        </section>
+        <section class="post-nav">
+            
+            
+            <a class="next" rel="next" href="/2022/04/28/%E3%80%90ROST%E3%80%91ROSTCM%E7%94%9F%E6%88%90%E7%9A%84NetDraw%E7%A9%BA%E7%99%BD%E3%80%81%E8%A1%8C%E7%89%B9%E5%BE%81%E8%AF%8D%E6%98%AF0kb%E6%80%8E%E4%B9%88%E5%8A%9E/">【ROST】ROSTCM生成的NetDraw空白、行特征词是0kb怎么办</a>
+            
+        </section>
+
+
+    </article>
+</div>
+
             </div>
             <footer id="footer" class="footer">
     <div class="copyright">
