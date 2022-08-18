@@ -49,6 +49,9 @@
         
     
 
+
+
+<!-- 搜索的部分 -->
   
       
         <script>
@@ -92,7 +95,7 @@
 
 
     function search(searchInputEl, formEl, flag) {
-        const path = "/" + "search.xml"; // 可以在public 下查看这个search.json
+        const path = "/" + "search.json"; // 可以在public 下查看这个search.json
         $(formEl).submit(function(e){
             e.preventDefault();
             let target = null
@@ -273,15 +276,17 @@
                    
                    
     <div class="search ">   
-    <div class="search-btn" onClick="searchToggle()">   
-    <img src="/image/search.png" class="search-btn-img" />   
-    </div>   
-    <form class="form-search">   
-    <input class="input" placeholder="Searching" autocomplete="off" id="pc-search-input"/>   
-    </form>   
+        <div class="search-btn" onClick="searchToggle()">   
+             <img src="/image/search.png" class="search-btn-img" />   
+        </div>   
+        <form class="form-search">   
+            <input class="input" placeholder="Searching1111" autocomplete="off" id="pc-search-input"/>   
+         </form>   
     </div>   
 
    
+
+
                 
                     <!-- <a class="menu-item" href="/archives">文章</a> -->
                     
@@ -340,15 +345,17 @@
                        
                        
     <div class="search ">   
-    <div class="search-btn" onClick="searchToggle()">   
-    <img src="/image/search.png" class="search-btn-img" />   
-    </div>   
-    <form class="form-search">   
-    <input class="input" placeholder="Searching" autocomplete="off" id="mobile-search-input"/>   
-    </form>   
+        <div class="search-btn" onClick="searchToggle()">   
+             <img src="/image/search.png" class="search-btn-img" />   
+        </div>   
+        <form class="form-search">   
+            <input class="input" placeholder="Searching1111" autocomplete="off" id="mobile-search-input"/>   
+         </form>   
     </div>   
 
-      
+   
+
+   
                     <div class="menu-toggle" onclick="mobileBtn()">&#9776; 目录</div>   
                 </div>
             </div>
