@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>【Endnote】个性化定制修改参考文献格式、参考文献如何添加修改普通字符？</title>
+    <url>/2022/04/28/%E3%80%90Endnote%E3%80%91%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AE%9A%E5%88%B6%E4%BF%AE%E6%94%B9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%A0%BC%E5%BC%8F%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%BF%AE%E6%94%B9%E6%99%AE%E9%80%9A%E5%AD%97%E7%AC%A6%EF%BC%9F/</url>
+    <content><![CDATA[<p>以APA 6th格式为例</p>
+<h1 id="style备份"><a href="#style备份" class="headerlink" title="style备份"></a>style备份</h1><p>注意！这一步骤是必须的。修改文献style之前，先把原style样式备份保留，所有个性化修改只针对拷贝版本。<br><br><br><strong>备份步骤：</strong></p>
+<p><code>edit</code> - <code>output styles</code> ，选中apa 6th 格式 - <code>edit apa 6th</code> </p>
+<p>此时点击  <code>File</code>  - <code>save as</code> , 将要修改的格式另存为 <code>apa 6th copy</code>, 进行备份</p>
+<p>之后的操作都是针对<code>apa 6th copy</code>进行修改<br><br></p>
+<h1 id="style修改过程"><a href="#style修改过程" class="headerlink" title="style修改过程"></a>style修改过程</h1><p><code>edit</code> - <code>output styles</code> - <code>open style manager</code> , 勾选<code>apa 6th copy</code></p>
+<img src="/2022/04/28/%E3%80%90Endnote%E3%80%91%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AE%9A%E5%88%B6%E4%BF%AE%E6%94%B9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%A0%BC%E5%BC%8F%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%BF%AE%E6%94%B9%E6%99%AE%E9%80%9A%E5%AD%97%E7%AC%A6%EF%BC%9F/image-20220428133734595.png" class="" title="image-20220428133734595">
+<br>
+
+<p>再打开<code>edit</code> - <code>output styles</code> - <code>open style manager</code>，就能看到<code>apa 6th copy</code>，勾选它，然后<code>edit</code> -<code>output styles</code> - <code>open style manager</code> - <code>edit apa 6th copy</code></p>
+<br>
+打开  Bibliography  -  Templates , 对应修改每种类型参考文献的内容
+<img src="/2022/04/28/%E3%80%90Endnote%E3%80%91%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AE%9A%E5%88%B6%E4%BF%AE%E6%94%B9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%A0%BC%E5%BC%8F%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%BF%AE%E6%94%B9%E6%99%AE%E9%80%9A%E5%AD%97%E7%AC%A6%EF%BC%9F/image-20220428133836516.png" class="" title="image-20220428133836516">
+
+<p>接下来以Web Page类型的格式修改为例。 自己的实际修改要求见期刊的投稿指南。<br>原格式为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Publisher. Title. `Retrieved from` Date Cited `from` URL</span><br></pre></td></tr></table></figure>
+<p>可改为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Publisher. Title. `Retrieved` Date Cited `from` URL</span><br></pre></td></tr></table></figure>
+<p>注意：<br>“Retrieved”是要显示的字，前后需要加一个下图红圈的英文符号。这与Date Cited不同（后者显示为对应的内容，即引用时间，而不是显示为“Date Cited”这个词）</p>
+<img src="/2022/04/28/%E3%80%90Endnote%E3%80%91%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AE%9A%E5%88%B6%E4%BF%AE%E6%94%B9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%A0%BC%E5%BC%8F%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%BF%AE%E6%94%B9%E6%99%AE%E9%80%9A%E5%AD%97%E7%AC%A6%EF%BC%9F/image-20220428133758428.png" class="" title="image-20220428133758428">
+<br>
+点击  Insert Filed ，即可插入文献相关的其他信息，如DOI等。
+<img src="/2022/04/28/%E3%80%90Endnote%E3%80%91%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AE%9A%E5%88%B6%E4%BF%AE%E6%94%B9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E6%A0%BC%E5%BC%8F%E3%80%81%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%BF%AE%E6%94%B9%E6%99%AE%E9%80%9A%E5%AD%97%E7%AC%A6%EF%BC%9F/image-20220428133854737.png" class="" title="image-20220428133854737">]]></content>
+      <tags>
+        <tag>Endnote</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【ROST】如何直接打开本地的.vna文件</title>
+    <url>/2022/04/28/%E3%80%90ROST%E3%80%91%E5%A6%82%E4%BD%95%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%E6%9C%AC%E5%9C%B0%E7%9A%84-vna%E6%96%87%E4%BB%B6/</url>
+    <content><![CDATA[<p>使用ROST CM6进行社会和语义网络分析，使用“快速分析”后生成网络图，存储为VNA文件。</p>
+<br>
+
+<p>但是，已经生成的VNA文件，保存于本地，需要再次查看时要如何打开呢？</p>
+<br>
+
+<p>点击<code>工具</code>，打开<code>NetDraw</code></p>
+<img src="/2022/04/28/%E3%80%90ROST%E3%80%91%E5%A6%82%E4%BD%95%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%E6%9C%AC%E5%9C%B0%E7%9A%84-vna%E6%96%87%E4%BB%B6/image-20220428110138146.png" class="" title="image-20220428110138146">
+
+<br>
+
+<p>依次选择<code>file</code> - <code>open</code> - <code>vna text file</code>，选择<code>VNA</code>格式</p>
+<img src="/2022/04/28/%E3%80%90ROST%E3%80%91%E5%A6%82%E4%BD%95%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%E6%9C%AC%E5%9C%B0%E7%9A%84-vna%E6%96%87%E4%BB%B6/image-20220428110152647.png" class="" title="image-20220428110152647">
+
+<br>
+
+<img src="/2022/04/28/%E3%80%90ROST%E3%80%91%E5%A6%82%E4%BD%95%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%E6%9C%AC%E5%9C%B0%E7%9A%84-vna%E6%96%87%E4%BB%B6/image-20220428110121670.png" class="" title="image-20220428110121670">]]></content>
+      <tags>
+        <tag>ROST</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【hexo】搭建hexo 报错 FATAL YAMLException: duplicated mapping key  (117:1)</title>
+    <url>/2022/04/01/%E3%80%90hexo%E3%80%91%E6%90%AD%E5%BB%BAhexo-%E6%8A%A5%E9%94%99-FATAL-YAMLException-duplicated-mapping-key-117-1/</url>
+    <content><![CDATA[<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>输入<code>hexo clean</code>时报错：<br>FATAL YAMLException: duplicated mapping key  (117:1)</p>
+<br>
+
+<h3 id="报错解读"><a href="#报错解读" class="headerlink" title="报错解读"></a>报错解读</h3><ul>
+<li>该报错主要是因为某一个文件中的代码重复<br>refer: <a href="https://blog.csdn.net/weixin_43423781/article/details/118892741">https://blog.csdn.net/weixin_43423781/article/details/118892741</a></li>
+<li>117表示在第几行出错。但具体是哪个文件报错，需要结合报错信息，回顾自己之前修改过哪个配置文件，逐个检查。找到重复代码，删除即可。</li>
+</ul>
+<br>
+
+<h3 id="解决过程"><a href="#解决过程" class="headerlink" title="解决过程"></a>解决过程</h3><p>例如，我在添加搜索栏之后（<a href="https://myoontyee.github.io/article/1650c0d7.html">搜索栏参考教程</a>），出现这个报错。于是从该教程的第一步开始梳理，逐个检查修改过的文件，最终在下图处发现代码重复。删除重复代码即可。</p>
+<img src="/2022/04/01/%E3%80%90hexo%E3%80%91%E6%90%AD%E5%BB%BAhexo-%E6%8A%A5%E9%94%99-FATAL-YAMLException-duplicated-mapping-key-117-1/image-20220428112440982.png" class="" title="image-20220428112440982">]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【ROST】ROSTCM生成的NetDraw空白、行特征词是0kb怎么办</title>
+    <url>/2022/04/28/%E3%80%90ROST%E3%80%91ROSTCM%E7%94%9F%E6%88%90%E7%9A%84NetDraw%E7%A9%BA%E7%99%BD%E3%80%81%E8%A1%8C%E7%89%B9%E5%BE%81%E8%AF%8D%E6%98%AF0kb%E6%80%8E%E4%B9%88%E5%8A%9E/</url>
+    <content><![CDATA[<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>使用ROSTCM进行社会网络和语义网络分析，启动NetDraw后的图像显示空白，行特征词文件大小为0kb或其他很小的值</p>
+<img src="/2022/04/28/%E3%80%90ROST%E3%80%91ROSTCM%E7%94%9F%E6%88%90%E7%9A%84NetDraw%E7%A9%BA%E7%99%BD%E3%80%81%E8%A1%8C%E7%89%B9%E5%BE%81%E8%AF%8D%E6%98%AF0kb%E6%80%8E%E4%B9%88%E5%8A%9E/image-20220428111707836.png" class="" title="image-20220428111707836">
+<br>
+<img src="/2022/04/28/%E3%80%90ROST%E3%80%91ROSTCM%E7%94%9F%E6%88%90%E7%9A%84NetDraw%E7%A9%BA%E7%99%BD%E3%80%81%E8%A1%8C%E7%89%B9%E5%BE%81%E8%AF%8D%E6%98%AF0kb%E6%80%8E%E4%B9%88%E5%8A%9E/image-20220428111732189.png" class="" title="image-20220428111732189">
+<br>
+
+<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><p>对最初输入的待处理文件进行格式转换。以txt文件为例：</p>
+<ol>
+<li><p>用记事本打开待处理文件，<code>另存为</code> - <code>编码</code>选<code>ANSI</code></p>
+ <img src="/2022/04/28/%E3%80%90ROST%E3%80%91ROSTCM%E7%94%9F%E6%88%90%E7%9A%84NetDraw%E7%A9%BA%E7%99%BD%E3%80%81%E8%A1%8C%E7%89%B9%E5%BE%81%E8%AF%8D%E6%98%AF0kb%E6%80%8E%E4%B9%88%E5%8A%9E/image-20220428111750579.png" class="" title="image-20220428111750579">
+</li>
+<li><p>用转换后的ANSI文件作为待处理文件，重新操作即可</p>
+<img src="/2022/04/28/%E3%80%90ROST%E3%80%91ROSTCM%E7%94%9F%E6%88%90%E7%9A%84NetDraw%E7%A9%BA%E7%99%BD%E3%80%81%E8%A1%8C%E7%89%B9%E5%BE%81%E8%AF%8D%E6%98%AF0kb%E6%80%8E%E4%B9%88%E5%8A%9E/image-20220428111853460.png" class="" title="image-20220428111853460"></li>
+</ol>
+<br>
+
+<hr>
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://zhidao.baidu.com/question/1541428578014118667.html?qbpn=2_7&amp;tx=&amp;word=rostcm%E8%BF%9B%E8%A1%8C%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%E7%BB%93%E6%9E%9C%E5%87%BA%E7%8E%B0%E4%B9%B1%E7%A0%81%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3&amp;fr=newsearchlist">https://zhidao.baidu.com/question/1541428578014118667.html?qbpn=2_7&amp;tx=&amp;word=rostcm%E8%BF%9B%E8%A1%8C%E6%83%85%E6%84%9F%E5%88%86%E6%9E%90%E7%BB%93%E6%9E%9C%E5%87%BA%E7%8E%B0%E4%B9%B1%E7%A0%81%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3&amp;fr=newsearchlist</a></p>
+]]></content>
+      <tags>
+        <tag>ROST</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【obsidian教程】如何在obsidian里为字体设置不同的颜色？</title>
+    <url>/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/</url>
+    <content><![CDATA[<p>如何在obsidian里为字体设置不同的颜色？</p>
+<p>方案1. 通过CSS语言设置<br>缺点是比较麻烦。我推荐下面的方案2。</p>
+<p>方案2. 类似word笔刷一样的工具栏插件 cmenu<br>强烈推荐大家使用cmenu增强版，不是默认的cmenu</p>
+<p>下面我将介绍obsidian的cmenu增强版插件之安装、调试与使用。</p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>插件下载地址：<a href="https://github.com/cumany/cMenu-Plugin/releases/tag/1.1.30">https://github.com/cumany/cMenu-Plugin/releases/tag/1.1.30</a></p>
+<br>
+
+<p>如果还没安装cmenu：<br>插件解压，将<code>cMenu_modify</code> 和<code>ZH_enhance</code>两个文件夹拷贝进<code> .obsidian/plugins</code>文件夹下（若没有plugins文件夹可以新建一个）</p>
+<br>
+
+<p>如果已经从“社区插件”安装了cmenu，再安装这个增强版的：</p>
+<ol>
+<li>将插件安装包cMenu_all_in解压后，出现两个文件夹<img src="/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/image-20220428093923721.png" class="" title="image-20220428093923721"></li>
+<li>将<code>cMenu_modify</code>里面的文件拷贝进<code> .obsidian/plugins/cmenu-plugin</code> ，替换原有的文件。<ul>
+<li>注意 <code>cmenu-plugin</code>文件夹下不要再设新的文件夹</li>
+</ul>
+</li>
+<li>将<code>ZH_enhance</code>文件夹移动至<code>.obsidian/plugins</code>目录下</li>
+<li>重启obsidian</li>
+<li>设置 - 第三方插件 - 分别点击cmenu和ZH增强编辑插件右边的开关，启动插件</li>
+</ol>
+<h1 id="调试与使用"><a href="#调试与使用" class="headerlink" title="调试与使用"></a>调试与使用</h1><p>在第三方插件-cmenu-点击设置，即可调试。调试后重启obsidian，才能生效。</p>
+<img src="/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/image-20220428094227592.png" class="" title="image-20220428094227592">
+
+
+<h2 id="工具栏位置调试"><a href="#工具栏位置调试" class="headerlink" title="工具栏位置调试"></a>工具栏位置调试</h2><p>以“cmenu位置”为例，选择following，可使工具栏跟随鼠标位置出现</p>
+<img src="/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/image-20220428094240267.png" class="" title="image-20220428094240267">
+
+<p>following模式的优点是：未使用时，工具栏自动隐藏，不遮挡编辑视图，随取随用，非常方便。</p>
+<p>任意选中一个字或任意文本，双击，即出现工具栏。工具栏随后消失。</p>
+<img src="/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/image-20220428094251300.png" class="" title="image-20220428094251300">
+
+<h2 id="工具栏大小调试"><a href="#工具栏大小调试" class="headerlink" title="工具栏大小调试"></a>工具栏大小调试</h2><p>tiny：紧凑版<br>我一般用default</p>
+<img src="/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/image-20220428094301807.png" class="" title="image-20220428094301807">
+
+<h2 id="工具栏列数调试"><a href="#工具栏列数调试" class="headerlink" title="工具栏列数调试"></a>工具栏列数调试</h2><p>“cmenu”列数，可以固定为一个数。这样长期使用，可以熟练记住每个功能的位置，方便快速查找功能。</p>
+<img src="/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/image-20220428094308764.png" class="" title="image-20220428094308764">
+
+
+<h2 id="cmenu模块的添加与修改"><a href="#cmenu模块的添加与修改" class="headerlink" title="cmenu模块的添加与修改"></a>cmenu模块的添加与修改</h2><p>这一节不需要重启就能生效</p>
+<ol>
+<li>cMenu命令-点击加号-挑选要添加的命令-挑选一个icon。<br>如下面三图</li>
+</ol>
+<img src="/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/image-20220428094320670.png" class="" title="image-20220428094320670">
+
+<img src="/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/image-20220428094329074.png" class="" title="image-20220428094329074">
+
+
+
+<p>2.修改cmenu工具栏面板上不同命令的位置，将同类命令放在一起<br>按住某一个命令，不要松开鼠标，拖动该命令往上或往下即可。<br>如下图，我增加了“转换紫色背景”的命令，拖到前面，和同类的转换背景命令放在一起。</p>
+<img src="/2022/04/27/%E3%80%90obsidian%E6%95%99%E7%A8%8B%E3%80%91%E5%A6%82%E4%BD%95%E5%9C%A8obsidian%E9%87%8C%E4%B8%BA%E5%AD%97%E4%BD%93%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E7%9A%84%E9%A2%9C%E8%89%B2%EF%BC%9F/image-20220428094341446.png" class="" title="image-20220428094341446">
+
+
+
+
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul>
+<li>CSS语言设置字体颜色: <a href="https://zhuanlan.zhihu.com/p/399366217">https://zhuanlan.zhihu.com/p/399366217</a></li>
+<li>cmenu增强版原博:  <a href="https://forum-zh.obsidian.md/t/topic/3379">https://forum-zh.obsidian.md/t/topic/3379</a><ul>
+<li>原博所在obsidian的论坛，有很多好玩的教程，大家可以自行探索~</li>
+</ul>
+</li>
+<li>手动安装obsidian插件的教程：<a href="https://zhuanlan.zhihu.com/p/369323836">https://zhuanlan.zhihu.com/p/369323836</a></li>
+<li>修改cmenu菜单里模块功能的教程参考：<a href="https://github.com/chetachiezikeuzor/cMenu-Plugin">https://github.com/chetachiezikeuzor/cMenu-Plugin</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>obsidian</tag>
+      </tags>
+  </entry>
+</search>
